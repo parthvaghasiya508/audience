@@ -1,0 +1,52 @@
+POST https://api-teams.chatdaddy.tech/token HTTP/1.1
+content-type: application/json
+
+{
+  "refreshToken": "059c420e-7424-431f-b23b-af0ecabfe7b8",
+  "teamId": "a001994b-918b-4939-8518-3377732e4e88"
+}
+
+
+GET https://api-im.chatdaddy.tech/contacts HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6IjEwMTExMTEwMDAwMDAwMDExMTExMTExMTEwMTAwMTExMDAwMDAwMDExMDAwMDAwMDAwMDAxMDAxMTExMTExMTExMSIsImlhdCI6MTY0MDYwMjY5MiwiZXhwIjoxNjQwNjA2MjkyLCJ1c2VyIjp7ImlkIjoiYWI4OWUyNWUtNWEyYy00NTU1LThjYjUtNTcxMTYwNmM2ZWQxIiwiZnVsbE5hbWUiOiJ6b29tZGVtbzIiLCJwaG9uZU51bWJlciI6Ijg1MjY1ODc4NTQ0IiwidGVhbUlkIjoiYTAwMTk5NGItOTE4Yi00OTM5LTg1MTgtMzM3NzczMmU0ZTg4In19.22k3_9V14YfP0_i7qnB1BA-oK9DIY7E46YtYdrpN54mz0QUlSEnTcXmL_Bf2rOdJXnNd6acOZ6ynQgkAavwESQ
+
+{
+  # "page":"[\"Amelia Fields\",10239779]"
+}
+
+
+
+GET https://api-im.chatdaddy.tech/contacts HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6IjEwMTExMTEwMDAwMDAwMDExMTExMTExMTEwMTAwMTExMDAwMDAwMDExMDAwMDAwMDAwMDAxMDAxMTExMTExMTExMSIsImlhdCI6MTY0MDYxMTAzMCwiZXhwIjoxNjQwNjE0NjMwLCJ1c2VyIjp7ImlkIjoiYWI4OWUyNWUtNWEyYy00NTU1LThjYjUtNTcxMTYwNmM2ZWQxIiwiZnVsbE5hbWUiOiJ6b29tZGVtbzIiLCJwaG9uZU51bWJlciI6Ijg1MjY1ODc4NTQ0IiwidGVhbUlkIjoiYTAwMTk5NGItOTE4Yi00OTM5LTg1MTgtMzM3NzczMmU0ZTg4In19.a9aCGHiuopnpW3CqtzrFkyjGwNQ6xuN3qqdIWxcQ4ULqSW7NgiOqoM5FbO7Juc7gDC5S2MIokqTyZc642iNXUA
+
+{
+  # "page":"[\"Amelia Fields\",10239779]"
+  "q":"rohit",
+  # "tags":["friend"]
+}
+
+
+GET https://api-im.chatdaddy.tech/tags HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6IjEwMTExMTEwMDAwMDAwMDExMTExMTExMTEwMTAwMTExMDAwMDAwMDExMDAwMDAwMDAwMDAxMDAxMTExMTExMTExMSIsImlhdCI6MTY0MDY3NjY2OSwiZXhwIjoxNjQwNjgwMjY5LCJ1c2VyIjp7ImlkIjoiYWI4OWUyNWUtNWEyYy00NTU1LThjYjUtNTcxMTYwNmM2ZWQxIiwiZnVsbE5hbWUiOiJ6b29tZGVtbzIiLCJwaG9uZU51bWJlciI6Ijg1MjY1ODc4NTQ0IiwidGVhbUlkIjoiYTAwMTk5NGItOTE4Yi00OTM5LTg1MTgtMzM3NzczMmU0ZTg4In19.hD5xTRQiYid1m94YPLFZ6R3CglFZXwTwPVbUL_ruXHi63c8hpUfhHijAHcNmXIEh_jkjy9k95qkBzLW-qebfSQ
+
+{
+  
+}
+
+
+
+
+
+
+
+
+GET https://apvbymr0a8.execute-api.ap-east-1.amazonaws.com/v2/contacts HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6IjEwMTExMTEwMDAwMDAwMDExMTExMTExMTEwMTAwMTExMDAwMDAwMDExMDAwMDAwMDAwMDAxMDAxMTExMTExMTExMSIsImlhdCI6MTY0MDYwNzEyMywiZXhwIjoxNjQwNjEwNzIzLCJ1c2VyIjp7ImlkIjoiYWI4OWUyNWUtNWEyYy00NTU1LThjYjUtNTcxMTYwNmM2ZWQxIiwiZnVsbE5hbWUiOiJ6b29tZGVtbzIiLCJwaG9uZU51bWJlciI6Ijg1MjY1ODc4NTQ0IiwidGVhbUlkIjoiYTAwMTk5NGItOTE4Yi00OTM5LTg1MTgtMzM3NzczMmU0ZTg4In19.C-758hsDj1sWKA8O2-IkfTbC3o0Wb-9yy-7BWxLE0v2RbKF13M5PffgwQD8w7OUxXXZlccxg08PwAr0Hjqzx6w
+
+{
+  # "page":"[\"Amelia Fields\",10239779]"
+}
